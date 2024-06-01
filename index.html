@@ -27,7 +27,51 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Espresso"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#">Recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Reservar una mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="span-accent">Café de especialidad</span> en Triple Peaks
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+        <div class="header__image">
+          <img
+            src="/images/inside_coffee_shop.png"
+            alt="Ilustración 'Dentro de la café'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__timing">
+            <span>Horario:</span
+            ><span>Lunes a Viernes (de 10:00h a 19:00h)</span
+            ><span>Sábados y Domingos (de 11:00h a 18:00h)</span>
+          </p>
+          <p class="header__address">
+            Avenida del Éxito 200, Ciudad Triple Peaks
+          </p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
