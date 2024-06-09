@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <title>Cafetería Triple Peaks</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
       content="A brief description of your page content goes here."
     />
-    <meta name="author" content="Copilot" />
+    <meta name="author" content="Daniel Roger" />
     <meta name="keywords" content="keyword1, keyword2, keyword3" />
-    <title>Your Page Title</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
+    <!-- API connection -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -55,12 +58,16 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__paragraph">Horario:</p>
-          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
-          <p class="header__paragraph">
-            Sábados y Domingos (de 11:00h a 18:00h)
-          </p>
-          <p class="header__paragraph">
+          <div class="header__schedule">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
+          <p class="header__address">
             Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
         </div>
@@ -101,7 +108,67 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="nombre">Nombre *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="nombre"
+                placeholder="Nombre"
+                required
+              />
+              <label class="form__label" for="comensales"
+                >Número de comensales *</label
+              >
+              <input
+                type="number"
+                class="form__input"
+                id="comensales"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                name="comensales"
+                required
+              />
+              <label class="form__label" for="date">Fecha y hora *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date"
+                name="date"
+              />
+              <label class="form__label" for="email"
+                >Tu correo electrónico *</label
+              >
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                placeholder="email@email.com"
+                name="email"
+                required
+              />
+            </fieldset>
+            <button class="form__button" type="submit">
+              Reservar una mesa
+            </button>
+            <div class="form___checkbox">
+              <input
+                class="form__checkbox_input"
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+              />
+              <label class="form__label form___label_checkbox" for="terms"
+                >Acepto los términos de uso
+              </label>
+            </div>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
