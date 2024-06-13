@@ -249,11 +249,11 @@ span {
   gap: 12px;
   margin: 32px auto 0;
 }
-.reservation__checkbox_input {
+.reservation__checkbox-input {
   width: 20px;
   height: 20px;
   border-radius: 2px;
   margin-top: 32px;
 }
-.reservation__label_checkbox {
+.reservation__label-checkbox {
 }
