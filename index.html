@@ -67,7 +67,7 @@
               Sábados y Domingos (de 11:00h a 18:00h)
             </p>
           </div>
-          <p class="header__address">
+          <p class="header__paragraph header__address">
             Avenida del Éxito 200, Ciudad Triple Peaks
           </p>
         </div>
@@ -111,8 +111,8 @@
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="reservation__form">
-            <fieldset class="reservation__fieldset">
-              <label class="reservation__label" for="nombre">Nombre *</label>
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="nombre">Nombre *</label>
               <input
                 type="text"
                 class="reservation__input"
@@ -120,12 +120,12 @@
                 placeholder="Nombre"
                 required
               />
-              <label class="reservation__label" for="comensales"
+              <label class="form__label" for="comensales"
                 >Número de comensales *</label
               >
               <input
                 type="number"
-                class="reservation__input"
+                class="form__input"
                 id="comensales"
                 min="1"
                 max="8"
@@ -133,41 +133,37 @@
                 name="comensales"
                 required
               />
-              <label class="reservation__label" for="date"
-                >Fecha y hora *</label
-              >
+              <label class="form__label" for="date">Fecha y hora *</label>
               <input
                 type="datetime-local"
-                class="reservation__input"
+                class="form__input"
                 id="date"
                 name="date"
               />
-              <label class="reservation__label" for="email"
+              <label class="form__label" for="email"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
-                class="reservation__input"
+                class="form__input"
                 id="email"
                 placeholder="email@email.com"
                 name="email"
                 required
               />
             </fieldset>
-            <button class="reservation__button" type="submit">
+            <button class="form__button" type="submit">
               Reservar una mesa
             </button>
-            <div class="reservation___checkbox">
+            <div class="form___checkbox">
               <input
-                class="reservation__checkbox_input"
+                class="form__checkbox form__checkbox_input"
                 type="checkbox"
                 id="terms"
                 name="terms"
                 required
               />
-              <label
-                class="reservation__label reservation___label_checkbox"
-                for="terms"
+              <label class="form__label form___label_checkbox" for="terms"
                 >Acepto los términos de uso
               </label>
             </div>

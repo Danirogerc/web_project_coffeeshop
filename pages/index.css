@@ -196,13 +196,13 @@ span {
   line-height: 52px;
   margin-bottom: 80px;
 }
-
-.reservation__fieldset {
+/* Form CSS */
+.form__fieldset {
   padding: 0;
   border: 0;
 }
 
-.reservation__input {
+.form__input {
   border-radius: 4px;
   display: block;
   font-family: "Inter";
@@ -216,7 +216,7 @@ span {
   box-sizing: border-box;
   padding: 15px 20px;
 }
-.reservation__label {
+.form__label {
   display: block;
   margin-bottom: 8px;
   font-family: "Inter";
@@ -225,7 +225,7 @@ span {
   font-size: 16px;
   line-height: 20px;
 }
-.reservation__button {
+.form__button {
   border-radius: 4px;
   font-family: "Inter";
   font-style: normal;
@@ -239,21 +239,21 @@ span {
   color: #ffffff;
   height: 60px;
 }
-.reservation__button:hover {
+.form__button:hover {
   opacity: 70%;
 }
 
-.reservation__checkbox {
+.form__checkbox {
   display: flex;
   align-items: center;
   gap: 12px;
   margin: 32px auto 0;
 }
-.reservation__checkbox_input {
+.form__checkbox_input {
   width: 20px;
   height: 20px;
   border-radius: 2px;
   margin-top: 32px;
 }
-.reservation__label_checkbox {
+.form__label_checkbox {
 }
