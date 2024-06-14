@@ -180,6 +180,7 @@ span {
   background-image: url("/images/background_reservation.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 100px;
 }
 .reservation__form {
   display: flex;
@@ -249,7 +250,7 @@ span {
   gap: 12px;
   margin: 32px auto 0;
 }
-.rform__checkbox-input {
+.form__checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
