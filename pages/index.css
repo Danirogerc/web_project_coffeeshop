@@ -193,8 +193,8 @@ span {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
+  top: 100px;
 }
 /* Form CSS */
 .reservation__fieldset {
