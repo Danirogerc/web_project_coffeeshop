@@ -1,0 +1,35 @@
+/* Nav CSS */
+.nav {
+  margin: auto 80px auto auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 80px;
+  width: 105px;
+  height: 39px;
+}
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 30px 80px auto auto;
+  padding: 0;
+}
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+span {
+  display: block;
+}

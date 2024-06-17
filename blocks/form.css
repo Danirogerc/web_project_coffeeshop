@@ -1,0 +1,59 @@
+/* Form CSS */
+.form__fieldset {
+  padding: 0;
+  border: 0;
+}
+
+.form__input {
+  border-radius: 4px;
+  display: block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
+  margin: 8px auto 32px auto;
+  border: 1px solid #838383;
+  box-sizing: border-box;
+  padding: 15px 20px;
+}
+.form__label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__button {
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  max-width: 385px;
+  background-color: #2f80ed;
+  border: none;
+  color: #ffffff;
+  height: 60px;
+}
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__terms {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 32px auto 0;
+}
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-top: 32px;
+}
