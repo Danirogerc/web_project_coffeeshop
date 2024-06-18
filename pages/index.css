@@ -1,17 +1,8 @@
-/* Imports */
-/* Normalize CSS */
 @import url("../vendor/normalize.css");
-/* Page CSS */
 @import url("../blocks/page.css");
-/* Header CSS */
 @import url("../blocks/header.css");
-/* Nav CSS */
 @import url("../blocks/nav.css");
-/* Recipes CSS */
 @import url("../blocks/recipes.css");
-/* Reservation CSS */
 @import url("../blocks/reservation.css");
-/* Form CSS */
 @import url("../blocks/form.css");
-/* Footer CSS */
 @import url("../blocks/footer.css");
