@@ -18,6 +18,9 @@
   box-sizing: border-box;
   padding: 15px 20px;
 }
+::placeholder {
+  color: #838383;
+}
 .form__label {
   display: block;
   margin-bottom: 8px;
@@ -45,15 +48,10 @@
   opacity: 70%;
 }
 
-.form__terms {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 32px auto 0;
-}
 .form__checkbox {
   width: 20px;
   height: 20px;
   border-radius: 2px;
   margin-top: 32px;
+  margin-right: 12px;
 }
